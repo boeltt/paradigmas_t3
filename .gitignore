@@ -3,7 +3,6 @@
 
 # Eclipse
 .project
-.classpath
 .settings/
 
 # Arquivos de sistema
