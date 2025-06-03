@@ -2,9 +2,9 @@ package entidades;
 
 public class Planeta {
     private String nome;
-    private double massa;         // em 10^24 kg
-    private double diametro;      // em km
-    private double distanciaSol;  // em milhões de km
+    private double massa;         
+    private double diametro;      
+    private double distanciaSol;  
     private boolean temAtmosfera;
 
     public Planeta(String nome, double massa, double diametro,
@@ -35,5 +35,11 @@ public class Planeta {
     public boolean isTemAtmosfera() {
         return temAtmosfera;
     }
+
+	@Override
+	public String toString() {
+		return "Planeta [nome=" + nome + ", massa=" + massa + ", diametro=" + diametro + ", distanciaSol="
+				+ distanciaSol + ", temAtmosfera=" + temAtmosfera + "]";
+	}
 }
 
