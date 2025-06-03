@@ -1,1 +1,14 @@
-/bin/
+# Compilados Java
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Testes temporários
+*.log
