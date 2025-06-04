@@ -1,6 +1,7 @@
 package entidades;
 
 public class Planeta {
+	//A entidade foi reutilizada do enunciado do trabalho
     private String nome;
     private double massa;         
     private double diametro;      
@@ -36,6 +37,7 @@ public class Planeta {
         return temAtmosfera;
     }
 
+    //Método toString por boa prática
 	@Override
 	public String toString() {
 		return "Planeta [nome=" + nome + ", massa=" + massa + ", diametro=" + diametro + ", distanciaSol="

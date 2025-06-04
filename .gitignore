@@ -11,3 +11,4 @@ Thumbs.db
 
 # Testes temporários
 *.log
+/bin/
